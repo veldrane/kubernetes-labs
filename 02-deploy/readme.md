@@ -1,17 +1,16 @@
-### General information
+### Obecné informace
 
-image-name: simple-api
-install version: v1.0.0
-location: registry.class.syscallx86.com
+image-name: simple-api  
+install version: v1.0.0  
+location: registry.class.syscallx86.com  
 
-### Deploy application on cluster
+### Deploy aplikace do clusteru
 
-
-- create namespace simple-api
-- switch into that namespace
-- pull the repository github.com/veldrane/kubernetes-app
-- read the readme file and locate deployment manifest
-- find the path on registry.class.syscallx86.com
-- customize manifest, setup right image-path and apply against tour cluster
-- monitor starting simple-api pod
-- look at logs of the simple-api-pod
+- vytvoř namespace `simple-api`  
+- přepni se do tohoto namespace  
+- stáhni repozitář `github.com/veldrane/kubernetes-app`  
+- přečti si soubor README a najdi deployment manifest  
+- najdi správnou cestu k imagi v `registry.class.syscallx86.com`  
+- uprav manifest, nastav správnou cestu k imagi a aplikuj ho na svůj cluster  
+- sleduj startování podu `simple-api`  
+- podívej se na logy podu `simple-api-pod`
