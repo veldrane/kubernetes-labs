@@ -1,5 +1,11 @@
 #### Kubernetes: Úvod
 
+### Cíl 
+
+Seznámení se s prostředím
+
+### Úlohy
+
 - přihlas se na jump server pomocí ssh  
 - vyzkoušej základní operace pomocí příkazů `kubectl`. Použij tahák (cheatsheet) nebo jakýkoliv zdroj na internetu podle vlastní preference  
   - vypiš všechny namespaces v clusteru
@@ -18,7 +24,6 @@
     - jak se jmenuje?  
     - jakou má IP adresu?  
     - na kterém nodu běží?
-
 - přihlas se na console0x.syscall86.com
     - použij přikaz `token` k vygenerování přihlašovacího tokenu
 
@@ -27,5 +32,5 @@ Advanced: (pro ty co byli na předchozím školení :)
     - vyber si jeden worker node
     - přishlas se na něj a přepni na roota
     - použij příkaz `crictl ps`
-    - porovnej to s výpisem podů třeba namespacu dashboard
+    - porovnej to s výpisem podů třeba namespace dashboard
     - co vidíš ? Mohl bys ses zkusit přepnout do kontextu podu ?

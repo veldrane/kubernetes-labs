@@ -1,0 +1,10 @@
+"addr" : "0.0.0.0"
+"port" : 80
+"prefix" : "/api/v1"
+"log": "console"
+"fault_inject":
+  "error_rate": 0.3
+  "min_delay": 50
+  "max_delay": 500
+  "timeout": 150
+  "status_code": 500
