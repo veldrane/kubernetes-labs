@@ -1,3 +1,11 @@
+### Prostředí - sdílené servery
+
+domain: class.syscallx86.com
+registry: registry.class.syscallx86.com
+ipa: ipa.class.syscallx86.com
+jump: jump.syscallx86.com
+
+
 ### Důležité příkazy, aliasy etc
 
 #### kubectl
