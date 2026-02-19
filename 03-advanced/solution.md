@@ -1,10 +1,6 @@
 #### Final deployment, configmap and service
 
 
-
-
-
-
 ```cm-simple-api.yaml
 apiVersion: v1
 kind: ConfigMap
