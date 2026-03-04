@@ -1,3 +1,6 @@
+# Lab prostředí
+![Lab diagram](./images/kubernetes-lab.cairo.svg)
+
 ### Prostředí - sdílené servery
 
 - domain: class.syscallx86.com
@@ -8,7 +11,7 @@
 
 ### Důležité příkazy, aliasy etc
 
-#### kubectl
+#### kubectl/oc
 
 základní kubernetes client
 
