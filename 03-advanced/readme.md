@@ -1,4 +1,4 @@
-### Obecné informace
+## Obecné informace
 
 image-name: simple-api  
 install version: v1.1.0 (pozor stara verze neumi config file) 
@@ -8,9 +8,7 @@ location: registry.class.syscallx86.com
 - template minifestu pro configmapu: `manifests/cm-simple-api.yaml`
 - configurace aplikace: `appconfig/config.yaml`
 
-### Cil
-
-Vydeplojovat aplikaci s vlastnim konfiguracnim souborem a nastavit ji tak aby tento soubor použila
+### Aplikace simple api
 
 ```
 $ ./simple-api-rs --help
@@ -25,8 +23,10 @@ Options:
 ```
 
 
+## Cíl
 
-### Deploy aplikace do clusteru
+
+## Úlohy
 
 - vytvoř namespace `simple-api` a přepni se do něj
     - kubectl create command

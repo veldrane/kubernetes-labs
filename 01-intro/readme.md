@@ -1,5 +1,9 @@
 # Kubernetes: Úvod
 
+## Obecné informace
+
+jump server: jump.syscallx86.com
+
 ## Cíl 
 
 Seznámení se s prostředím
@@ -33,7 +37,7 @@ Seznámení se s prostředím
     - tip: objekt je pod, lze použít i množné číslo :)<br>
   - podívej se na detaily konkrétního podu
     - tip: akce může být *describe* a objekt *jméno podo* a nebo je možné přes *oc get <jméno podu> -o yaml* vypsat detaily podu do yamlu.
-    <b> Tento formát příkazů oc/kubectl je obecný!</b> viz shrnutí<br>
+    <b>Tento formát příkazů oc/kubectl je obecný!</b><br>
     - otázky:
       - jak se pod jmenuje?  
       - jakou má IP adresu?  
@@ -49,3 +53,7 @@ Seznámení se s prostředím
 - použij příkaz `crictl ps`
 - porovnej to s výpisem podů třeba namespace dashboard
 - co vidíš ? Mohl bys ses zkusit přepnout do kontextu podu ?
+
+## Shrnutí
+
+Měli byste mít teď základní přehled o použití oc nebo kubectl cli klienta.
