@@ -5,6 +5,8 @@
 
 - domain: class.syscallx86.com
 - registry: registry.class.syscallx86.com
+- ocp console: https://ocp0x.class.syscallx86.com
+- keycloak: https://idp.class.syscallx86.com
 - ipa: ipa.class.syscallx86.com
 - jump: jump.syscallx86.com
 
